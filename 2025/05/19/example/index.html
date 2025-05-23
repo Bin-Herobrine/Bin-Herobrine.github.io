@@ -81,15 +81,19 @@
 
   <main class="main">
     <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div style="position: relative; width: 100vw; margin-left: calc(-50vw + 50%);">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container"
+     style="position: relative; width: 100vw; margin-left: calc(-50vw + 50%); padding: 0;">
+
+  <!-- 横幅图像 -->
   <img src="/picture/top.png" alt="横幅图"
        style="width: 100%; height: auto; display: block;">
 
   <!-- 遮罩 + 居中文字 -->
-  <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.4); 
+  <div style="position: absolute; inset: 0;
+              background: rgba(0,0,0,0.4);
               display: flex; flex-direction: column;
               justify-content: center; align-items: center;
-              color: white; text-align: center;">
+              color: white; text-align: center; z-index: 2;">
     <a href="/" class="brand" rel="start" style="color: white; text-decoration: none;">
       <h1 class="site-title">Blog of Bin</h1>
     </a>
