@@ -82,7 +82,15 @@
   <main class="main">
     <div class="column">
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container"
-     style="position: relative; width: 100vw; margin-left: calc(-50vw + 50%); background: url('/picture/top.png') center center / cover no-repeat; height: 300px; display: flex; justify-content: center; align-items: center;">
+     style="position: relative; width: 100vw; margin-left: calc(-50vw + 50%);
+            background: url('/picture/top.png') center center / cover no-repeat;
+            height: 300px; display: flex; flex-direction: column;
+            justify-content: center; align-items: center;">
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    </div>
+  </div>
 
   <div class="site-meta" style="color: white; text-align: center;">
     <a href="/" class="brand" rel="start">
@@ -91,6 +99,11 @@
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">banana</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+    </div>
   </div>
 </div>
 
